@@ -4,6 +4,7 @@ body{
     align-items: center;
     display: flex;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -104,11 +105,64 @@ body{
     background: rgb(33,2,2);
     background: linear-gradient(90deg, rgba(33,2,2,1) 0%, rgba(0,228,255,0) 0%, rgba(211,255,0,1) 0%, rgba(197,244,0,0.9808298319327731) 19%, rgba(65,13,132,1) 42%, rgba(65,13,132,1) 57%, rgba(132,13,123,1) 80%);
 }
-
+/*
 .Contactos{
     background-color: #ffffff;
     width: 600px;
     height: 700px;
     border-radius: 5%;
     
+}*/
+
+.agregar{
+  background-color: orange;
+  padding: 120px 55px;
+  box-shadow: 0 0 20px rgb(0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+h2{
+  color: #000;
+  font-size: 35px;
+}
+
+label{
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+
+}
+
+input, textarea{
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 2px solid #f0faf1;
+  color: #000;
+  outline: none;
+}
+
+input::placeholder,textarea::placeholder{
+  color: #b5cab6;
+}
+
+.btn{
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+  border-radius: 25px;
+  background-color: #3f01a1;
+  box-shadow: 0 0 20px rgba(4, 145, 211, 0.4);
+  cursor: pointer;
 }
