@@ -218,4 +218,21 @@ a{
   
 }
 
+h4{
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 2px solid #f0faf1;
+  color: #000;
+  outline: none;
+}
+
+.nuevo-listado{
+  
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  
+}
 
