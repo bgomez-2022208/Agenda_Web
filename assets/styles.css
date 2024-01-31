@@ -7,10 +7,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-
-
 .form {
     width: 500px;
     background-color: #fff;
@@ -116,7 +112,7 @@ body{
 
 .agregar{
   background-color: orange;
-  padding: 120px 55px;
+  padding: 10px 55px;
   box-shadow: 0 0 20px rgb(0, 0, 0.2);
   border-radius: 20px;
   text-align: center;
@@ -137,10 +133,13 @@ h2{
 
 label{
   color: #000;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 
+}
+
+input{
 }
 
 input, textarea{
@@ -165,4 +164,58 @@ input::placeholder,textarea::placeholder{
   background-color: #3f01a1;
   box-shadow: 0 0 20px rgba(4, 145, 211, 0.4);
   cursor: pointer;
+  
+  height: 50px;
+
+  justify-content: center;
+    align-items: center;
+    display: flex;
 }
+
+img{
+  border-radius: 25%;
+  width: 200px;
+}
+
+.unica{
+  padding: 0px 10px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border: 2px solid #f0faf1;
+}
+
+.contacto1{
+  background-color: rgb(0, 0, 0);
+  padding: 10px 55px;
+  box-shadow: 0 0 20px rgb(0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.contactosfondos{
+  background-color: #00b8f0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.etiquetas{
+  color: #e5e7eb;
+}
+
+a{
+  padding: 5px 20px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 2px solid #f0faf1;
+  color: #000;
+  outline: none;
+  
+}
+
+
